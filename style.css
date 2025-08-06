@@ -15,8 +15,8 @@
 .navbar{
   position: fixed;
   width: 100%;
-  background: crimson;
   padding: 15px 0;
+  background: crimson;
   font-family: 'Ubuntu', sans-serif;
 }
 .navbar .max-width{
