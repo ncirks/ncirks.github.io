@@ -43,7 +43,7 @@
 /* home section styling */
 .home{
   display: flex;
-  background-image: url("ncirks.github.io/images/banner.jpg");
+  background-image: url("images/banner.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
