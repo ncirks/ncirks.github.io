@@ -19,7 +19,7 @@
   padding: 15px 0;
   font-family: 'Ubuntu', sans-serif;
 }
-.navbar .max-wdith{
+.navbar .max-width{
   display: flex;
   align-items: center;
   justify-content: space-between;
