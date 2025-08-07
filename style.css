@@ -15,11 +15,10 @@
 .navbar{
   position: fixed;
   width: 100%;
-
   font-family: 'Ubuntu', sans-serif;
 }
 
-.navbar.sticy{
+.navbar .sticy{
   padding: 30px 0;
   background: black; /*remove if you do not want color behind the navbar*/
 }
