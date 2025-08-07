@@ -36,6 +36,11 @@
 }
 .navbar .logo a span{
   color: blueviolet; /*find more suitible color later*/
+  transition: all .3s ease;
+}
+
+.navbar.sticky .logo a span{
+  color: blueviolet;
 }
 .navbar .menu li{
   list-style: none;
