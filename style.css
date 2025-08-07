@@ -15,10 +15,13 @@
 .navbar{
   position: fixed;
   width: 100%;
-  padding: 30px 0;
-  background: black; /*remove if you do not want color behind the navbar*/
 
   font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar.sticy{
+  padding: 30px 0;
+  background: black; /*remove if you do not want color behind the navbar*/
 }
 .navbar .max-width{
   display: flex;
@@ -29,6 +32,9 @@
   color: #fff;
   font-size: 35px;
   font-weight: 600;
+}
+.navbar .logo a span{
+  color: blueviolet; /*find more suitible color later*/
 }
 .navbar .menu li{
   list-style: none;
@@ -44,6 +50,7 @@
 .navbar .menu li a:hover{
   color: blueviolet; /*change color later*/
 }
+
 
 /* home section styling */
 .home{
