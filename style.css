@@ -20,7 +20,7 @@
   transition: all .3s ease;
 }
 
-.navbar.sticy{
+.navbar.sticky{
   padding: 15px 0;
   background: black; /*remove if you do not want color behind the navbar*/
 }
