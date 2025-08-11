@@ -10,11 +10,20 @@ $(document).ready(function(){
     });
     // toggle menu/navbar script 
     //typing animation script
-    var typed = new typed(".typing", {
-        strings:["Developer, Coder, Designer"],
+   // var typed = new Typed(".typing", {
+   //     strings:["Developer, Coder, Designer"],
+    //    typeSpeed: 100,
+    //    backSpeed: 60,
+    //    loop: true
+
+    //});
+
+    const { Typed } = window;
+    new Typed(".typing", {
+        strings: ["Developer", "Coder", "Designer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
-
     });
+    
 });
