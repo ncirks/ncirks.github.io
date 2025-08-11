@@ -95,7 +95,13 @@
   font-size: 40px;
   margin: 5px 0;
 }
-.home .home-content .text-3 .typing span{
+.home .home-content .text-3 span{
+  color: rgb(46, 40, 54);
+  font-weight: 500;
+}
+
+/* typing color*/
+.typing{
   color: rgb(46, 40, 54);
   font-weight: 500;
 }
