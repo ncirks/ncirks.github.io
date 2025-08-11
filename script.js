@@ -9,7 +9,12 @@ $(document).ready(function(){
         }
     });
     // toggle menu/navbar script 
-    $('.menu-btn').click(function(){
-        $('.navbar .menu').toggleClass("active");
+    //typing animation script
+    var typed = new typed(".typing", {
+        strings:["Developer, Coder, Designer"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+
     });
 });

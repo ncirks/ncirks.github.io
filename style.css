@@ -61,14 +61,7 @@
 }
 
 
-/* menu btn syling */
-.menu-btn{
-  color: #fff;
-  font-size: 23px;
-  cursor: pointer;
-  display: none;
 
-}
 
 /* home section styling */
 .home{
@@ -141,6 +134,12 @@
   }
 
 }
+
+
+
+
+
+
 
 /* <div class="menu-btn">
   <svg width="30" height="30" viewBox="0 0 100 80">
