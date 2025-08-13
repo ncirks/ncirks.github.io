@@ -129,6 +129,7 @@ section{
 }
 
 .about .title{
+  position: relative;
   text-align: center;
   font-size: 40px;
   font-weight: 500;
@@ -148,7 +149,7 @@ section{
   width: 180px;
   height: 3px;
   background: #111;
-  transform: translate(-50%);
+  transform: translateX(-50%);
 }
 .about .title::after{
   content:"who I am";
@@ -159,7 +160,7 @@ section{
   color: crimson;
   padding: 5px;
   background: #fff;
-  transform: translate(-50%);
+  transform: translateX(-50%);
 }
 .about .about-content{
   display: flex;
