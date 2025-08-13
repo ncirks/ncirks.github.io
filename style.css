@@ -152,7 +152,7 @@ section{
 .about .title::after{
   content:"who I am";
   position: absolute;
-  bottom: -10px;
+  bottom: -13px;
   left: 50%;
   font-size: 20px;
   color: crimson;
